@@ -1,0 +1,7 @@
+#python code for subtracting two numbers 
+
+def subtract(x,y):
+  a=int(input())
+  b=int(input(())
+  return a+b
+
