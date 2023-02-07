@@ -1,9 +1,56 @@
-This is my first text file in git tutorial
+Bellow commands are used while practicing git & Github:-
 
-def test1(a,b):
-   a=int(input())
-   b=int(input(())
-   return a+b
-
+1. To configure git with github -
+git config --global user.name Jayesh137mhjn
+git config --global user.email jayesh.mahajan@atgeirsolutions.com
 
 
+2. to initialize the file strecture 
+git init
+
+
+3. To see all the hidden files 
+git -lart
+
+4. To check the status
+git status
+
+5. To add the untracked files into the repository
+git add.
+git add -A
+git add filename
+
+6. To save the files and changes done in files 
+git commit -m "nitial commit"
+
+7. To See the commits 
+git log
+git log -p -5
+
+8. If data is deleted or modified then to match the file with previous commit we use checkout command
+git checkout filename
+git checkout -f 
+
+9. To delete a file from staging area 
+git rm --cached
+
+10. To delete a file permenantly 
+git rm filename
+
+11. To Check the short status
+git status -s
+
+12. To Create a new branch 
+git branch branchname 
+
+13. To see/shift to new nranch 
+git checkout branchname
+
+14. Create and Switch to new branch at a time
+git checkout -b branchname
+
+15. To connect git with Github
+git remote add origin ---Paste the link copied from github---
+
+16. To Merge the branches
+git merge branchname
