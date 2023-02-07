@@ -1,0 +1,9 @@
+This is my first text file in git tutorial
+
+def test1(a,b):
+   a=int(input())
+   b=int(input(())
+   return a+b
+
+
+
